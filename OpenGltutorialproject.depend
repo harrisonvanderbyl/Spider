@@ -1,0 +1,739 @@
+# depslib dependency file v1.0
+1507862318 source:/home/harrison/Desktop/opengl/bones?/actor.cpp
+	"actor.h"
+	"mesh.h"
+
+1506820873 /home/harrison/Desktop/opengl/bones?/actor.h
+	"mesh.h"
+	"hitbox.h"
+	"texture.h"
+	<string>
+	<vector>
+	"shader.h"
+	"transform.h"
+	"obj_loader.h"
+	"bone.h"
+
+1505953887 /home/harrison/Desktop/opengl/bones?/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	"obj_loader.h"
+
+1505951188 /home/harrison/Desktop/opengl/bones?/obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1507695718 /home/harrison/Desktop/opengl/bones?/hitbox.h
+	<vector>
+	"obj_loader.h"
+	<glm/glm.hpp>
+	"transform.h"
+	"mesh.h"
+
+1507224375 /home/harrison/Desktop/opengl/bones?/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<iostream>
+
+1505815866 /home/harrison/Desktop/opengl/bones?/texture.h
+	<string>
+	<GL/glew.h>
+
+1506814069 /home/harrison/Desktop/opengl/bones?/shader.h
+	<string>
+	<GL/glew.h>
+	"transform.h"
+	"camera.h"
+
+1507807592 /home/harrison/Desktop/opengl/bones?/camera.h
+	<SDL2/SDL.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"hitbox.h"
+
+1507224405 /home/harrison/Desktop/opengl/bones?/bone.h
+	<glm/glm.hpp>
+	"camera.h"
+	"shader.h"
+	"bone.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1507223302 source:/home/harrison/Desktop/opengl/bones?/bone.cpp
+	"bone.h"
+	<iostream>
+
+1507861150 source:/home/harrison/Desktop/opengl/bones?/display.cpp
+	"display.h"
+	<GL/glew.h>
+	<iostream>
+
+1505087988 /home/harrison/Desktop/opengl/bones?/display.h
+	<SDL2/SDL.h>
+	<string>
+
+1507879948 source:/home/harrison/Desktop/opengl/bones?/hitbox.cpp
+	"hitbox.h"
+	<thread>
+
+1507879760 source:/home/harrison/Desktop/opengl/bones?/main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	"display.h"
+	"shader.h"
+	"mesh.h"
+	"texture.h"
+	"transform.h"
+	"camera.h"
+	"hitbox.h"
+	"actor.h"
+	"envelope.h"
+	"envgen.h"
+	"body.h"
+	"wolf.h"
+	"surface.h"
+
+1506761952 /home/harrison/Desktop/opengl/bones?/envelope.h
+	"actor.h"
+	"shader.h"
+
+1505954019 /home/harrison/Desktop/opengl/bones?/envgen.h
+	"actor.h"
+	"transform.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1506824333 /home/harrison/Desktop/opengl/bones?/body.h
+	"actor.h"
+	<string>
+	"bone.h"
+
+1505952320 source:/home/harrison/Desktop/opengl/bones?/mesh.cpp
+	"mesh.h"
+	<vector>
+	"obj_loader.h"
+	<iostream>
+
+1505953010 source:/home/harrison/Desktop/opengl/bones?/obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1506598114 source:/home/harrison/Desktop/opengl/bones?/shader.cpp
+	"shader.h"
+	<iostream>
+	<fstream>
+
+1418909075 source:/home/harrison/Desktop/opengl/bones?/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1497792435 /home/harrison/Desktop/opengl/bones?/stb_image.h
+	<stdio.h>
+
+1505864790 source:/home/harrison/Desktop/opengl/bones?/texture.cpp
+	"texture.h"
+	"stb_image.h"
+	<iostream>
+
+1497328146 source:/home/harrison/Desktop/opengl/bones?/transform.cpp
+
+1506824320 source:/home/harrison/Desktop/opengl/bones?/body.cpp
+	"body.h"
+
+1507880028 source:/home/harrison/Desktop/opengl/bones?/wolf.cpp
+	"wolf.h"
+
+1507809333 /home/harrison/Desktop/opengl/bones?/wolf.h
+	"camera.h"
+	"body.h"
+
+1504304805 source:/home/harrison/Desktop/opengl/bones?/block.cpp
+	"block.h"
+
+1504274806 /home/harrison/Desktop/opengl/bones?/block.h
+	"actor.h"
+
+1505952289 /home/harrison/Desktop/opengl/bones?/surface.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+
+1505952289 source:/home/harrison/Desktop/opengl/bones?/surface.cpp
+	"surface.h"
+
+1508659512 source:/home/harrison/Desktop/openglbackup/bones?/actor.cpp
+	"actor.h"
+	"mesh.h"
+
+1508654617 /home/harrison/Desktop/openglbackup/bones?/actor.h
+	"mesh.h"
+	"hitbox.h"
+	"texture.h"
+	<string>
+	<vector>
+	"shader.h"
+	"transform.h"
+	"obj_loader.h"
+	"bone.h"
+	<thread>
+
+1508186826 /home/harrison/Desktop/openglbackup/bones?/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	"obj_loader.h"
+
+1505951188 /home/harrison/Desktop/openglbackup/bones?/obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1508660386 /home/harrison/Desktop/openglbackup/bones?/hitbox.h
+	<vector>
+	"obj_loader.h"
+	<glm/glm.hpp>
+	"transform.h"
+	"mesh.h"
+	<thread>
+
+1509358275 /home/harrison/Desktop/openglbackup/bones?/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<iostream>
+
+1505815866 /home/harrison/Desktop/openglbackup/bones?/texture.h
+	<string>
+	<GL/glew.h>
+
+1506814069 /home/harrison/Desktop/openglbackup/bones?/shader.h
+	<string>
+	<GL/glew.h>
+	"transform.h"
+	"camera.h"
+
+1508543778 /home/harrison/Desktop/openglbackup/bones?/camera.h
+	<SDL2/SDL.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"hitbox.h"
+
+1509358861 /home/harrison/Desktop/openglbackup/bones?/bone.h
+	<glm/glm.hpp>
+	"camera.h"
+	"shader.h"
+	"bone.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1504304805 source:/home/harrison/Desktop/openglbackup/bones?/block.cpp
+	"block.h"
+
+1504274806 /home/harrison/Desktop/openglbackup/bones?/block.h
+	"actor.h"
+
+1508654663 source:/home/harrison/Desktop/openglbackup/bones?/body.cpp
+	"body.h"
+
+1506824333 /home/harrison/Desktop/openglbackup/bones?/body.h
+	"actor.h"
+	<string>
+	"bone.h"
+
+1509358318 source:/home/harrison/Desktop/openglbackup/bones?/bone.cpp
+	"bone.h"
+	<iostream>
+
+1508544123 source:/home/harrison/Desktop/openglbackup/bones?/display.cpp
+	"display.h"
+	<GL/glew.h>
+	<iostream>
+
+1505087988 /home/harrison/Desktop/openglbackup/bones?/display.h
+	<SDL2/SDL.h>
+	<string>
+
+1508711172 source:/home/harrison/Desktop/openglbackup/bones?/hitbox.cpp
+	"hitbox.h"
+	<thread>
+
+1508659241 source:/home/harrison/Desktop/openglbackup/bones?/main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	"display.h"
+	"shader.h"
+	"mesh.h"
+	"texture.h"
+	"transform.h"
+	"camera.h"
+	"hitbox.h"
+	"actor.h"
+	"envelope.h"
+	"envgen.h"
+	"body.h"
+	"wolf.h"
+	"surface.h"
+	<thread>
+
+1506761952 /home/harrison/Desktop/openglbackup/bones?/envelope.h
+	"actor.h"
+	"shader.h"
+
+1505954019 /home/harrison/Desktop/openglbackup/bones?/envgen.h
+	"actor.h"
+	"transform.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1509185124 /home/harrison/Desktop/openglbackup/bones?/wolf.h
+	"camera.h"
+	"body.h"
+	"extinput.h"
+
+1505952289 /home/harrison/Desktop/openglbackup/bones?/surface.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+
+1508186875 source:/home/harrison/Desktop/openglbackup/bones?/mesh.cpp
+	"mesh.h"
+	<vector>
+	"obj_loader.h"
+	<iostream>
+
+1505953010 source:/home/harrison/Desktop/openglbackup/bones?/obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1508495248 source:/home/harrison/Desktop/openglbackup/bones?/shader.cpp
+	"shader.h"
+	<iostream>
+	<fstream>
+
+1418909075 source:/home/harrison/Desktop/openglbackup/bones?/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1497792435 /home/harrison/Desktop/openglbackup/bones?/stb_image.h
+	<stdio.h>
+
+1505952289 source:/home/harrison/Desktop/openglbackup/bones?/surface.cpp
+	"surface.h"
+
+1505864790 source:/home/harrison/Desktop/openglbackup/bones?/texture.cpp
+	"texture.h"
+	"stb_image.h"
+	<iostream>
+
+1497328146 source:/home/harrison/Desktop/openglbackup/bones?/transform.cpp
+
+1509185788 source:/home/harrison/Desktop/openglbackup/bones?/wolf.cpp
+	"wolf.h"
+
+1509185517 /home/harrison/Desktop/openglbackup/bones?/extinput.h
+	<SerialStream.h>
+	<thread>
+	<iostream>
+	<string>
+	<stdio.h>
+
+1509346722 source:/home/harrison/Desktop/openglbackup/bones?/extinput.cpp
+	"extinput.h"
+
+1511599448 source:/home/harrison/Desktop/spider/actor.cpp
+	"actor.h"
+	"mesh.h"
+
+1509931900 /home/harrison/Desktop/spider/actor.h
+	"mesh.h"
+	"hitbox.h"
+	"texture.h"
+	<string>
+	<vector>
+	"shader.h"
+	"transform.h"
+	"obj_loader.h"
+	"bone.h"
+	<thread>
+
+1509413548 /home/harrison/Desktop/spider/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	"obj_loader.h"
+
+1509400674 /home/harrison/Desktop/spider/obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1509400674 /home/harrison/Desktop/spider/hitbox.h
+	<vector>
+	"obj_loader.h"
+	<glm/glm.hpp>
+	"transform.h"
+	"mesh.h"
+	<thread>
+
+1509400674 /home/harrison/Desktop/spider/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<iostream>
+
+1509400674 /home/harrison/Desktop/spider/texture.h
+	<string>
+	<GL/glew.h>
+
+1509400674 /home/harrison/Desktop/spider/shader.h
+	<string>
+	<GL/glew.h>
+	"transform.h"
+	"camera.h"
+
+1511600689 /home/harrison/Desktop/spider/camera.h
+	<SDL2/SDL.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"hitbox.h"
+
+1509400654 /home/harrison/Desktop/spider/bone.h
+	<glm/glm.hpp>
+	"camera.h"
+	"shader.h"
+	"bone.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1509400654 source:/home/harrison/Desktop/spider/block.cpp
+	"block.h"
+
+1509400654 /home/harrison/Desktop/spider/block.h
+	"actor.h"
+
+1509931043 source:/home/harrison/Desktop/spider/body.cpp
+	"body.h"
+
+1509400654 /home/harrison/Desktop/spider/body.h
+	"actor.h"
+	<string>
+	"bone.h"
+
+1509400654 source:/home/harrison/Desktop/spider/bone.cpp
+	"bone.h"
+	<iostream>
+
+1509507816 source:/home/harrison/Desktop/spider/display.cpp
+	"display.h"
+	<GL/glew.h>
+	<iostream>
+
+1509400674 /home/harrison/Desktop/spider/display.h
+	<SDL2/SDL.h>
+	<string>
+
+1510000589 source:/home/harrison/Desktop/spider/extinput.cpp
+	"extinput.h"
+
+1509400674 /home/harrison/Desktop/spider/extinput.h
+	<SerialStream.h>
+	<thread>
+	<iostream>
+	<string>
+	<stdio.h>
+
+1510179324 source:/home/harrison/Desktop/spider/hitbox.cpp
+	"hitbox.h"
+	<thread>
+
+1510291443 source:/home/harrison/Desktop/spider/main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	"display.h"
+	"shader.h"
+	"mesh.h"
+	"texture.h"
+	"transform.h"
+	"camera.h"
+	"hitbox.h"
+	"actor.h"
+	"envelope.h"
+	"envgen.h"
+	"body.h"
+	"wolf.h"
+	"surface.h"
+	<thread>
+
+1509931134 /home/harrison/Desktop/spider/envelope.h
+	"actor.h"
+	"shader.h"
+
+1509400674 /home/harrison/Desktop/spider/envgen.h
+	"actor.h"
+	"transform.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1509956424 /home/harrison/Desktop/spider/wolf.h
+	"camera.h"
+	"body.h"
+	"extinput.h"
+
+1509400674 /home/harrison/Desktop/spider/surface.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+
+1509413534 source:/home/harrison/Desktop/spider/mesh.cpp
+	"mesh.h"
+	<vector>
+	"obj_loader.h"
+	<iostream>
+
+1509400674 source:/home/harrison/Desktop/spider/obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1509931297 source:/home/harrison/Desktop/spider/shader.cpp
+	"shader.h"
+	<iostream>
+	<fstream>
+
+1509400674 source:/home/harrison/Desktop/spider/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1509400674 /home/harrison/Desktop/spider/stb_image.h
+	<stdio.h>
+
+1509400674 source:/home/harrison/Desktop/spider/surface.cpp
+	"surface.h"
+
+1509400674 source:/home/harrison/Desktop/spider/texture.cpp
+	"texture.h"
+	"stb_image.h"
+	<iostream>
+
+1509400674 source:/home/harrison/Desktop/spider/transform.cpp
+
+1511600637 source:/home/harrison/Desktop/spider/wolf.cpp
+	"wolf.h"
+
+1509509021 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/actor.cpp
+	"actor.h"
+	"mesh.h"
+
+1509931900 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/actor.h
+	"mesh.h"
+	"hitbox.h"
+	"texture.h"
+	<string>
+	<vector>
+	"shader.h"
+	"transform.h"
+	"obj_loader.h"
+	"bone.h"
+	<thread>
+
+1509413548 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	"obj_loader.h"
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/hitbox.h
+	<vector>
+	"obj_loader.h"
+	<glm/glm.hpp>
+	"transform.h"
+	"mesh.h"
+	<thread>
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<iostream>
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/texture.h
+	<string>
+	<GL/glew.h>
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/shader.h
+	<string>
+	<GL/glew.h>
+	"transform.h"
+	"camera.h"
+
+1509400654 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/camera.h
+	<SDL2/SDL.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"hitbox.h"
+
+1509400654 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/bone.h
+	<glm/glm.hpp>
+	"camera.h"
+	"shader.h"
+	"bone.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1509400654 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/block.cpp
+	"block.h"
+
+1509400654 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/block.h
+	"actor.h"
+
+1509931043 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/body.cpp
+	"body.h"
+
+1509400654 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/body.h
+	"actor.h"
+	<string>
+	"bone.h"
+
+1509400654 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/bone.cpp
+	"bone.h"
+	<iostream>
+
+1509507816 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/display.cpp
+	"display.h"
+	<GL/glew.h>
+	<iostream>
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/display.h
+	<SDL2/SDL.h>
+	<string>
+
+1510000589 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/extinput.cpp
+	"extinput.h"
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/extinput.h
+	<SerialStream.h>
+	<thread>
+	<iostream>
+	<string>
+	<stdio.h>
+
+1509400674 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/hitbox.cpp
+	"hitbox.h"
+	<thread>
+
+1509931460 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	"display.h"
+	"shader.h"
+	"mesh.h"
+	"texture.h"
+	"transform.h"
+	"camera.h"
+	"hitbox.h"
+	"actor.h"
+	"envelope.h"
+	"envgen.h"
+	"body.h"
+	"wolf.h"
+	"surface.h"
+	<thread>
+
+1509931134 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/envelope.h
+	"actor.h"
+	"shader.h"
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/envgen.h
+	"actor.h"
+	"transform.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1509956424 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/wolf.h
+	"camera.h"
+	"body.h"
+	"extinput.h"
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/surface.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+
+1509413534 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/mesh.cpp
+	"mesh.h"
+	<vector>
+	"obj_loader.h"
+	<iostream>
+
+1509400674 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1509931297 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/shader.cpp
+	"shader.h"
+	<iostream>
+	<fstream>
+
+1509400674 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1509400674 /media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/stb_image.h
+	<stdio.h>
+
+1509400674 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/surface.cpp
+	"surface.h"
+
+1509400674 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/texture.cpp
+	"texture.h"
+	"stb_image.h"
+	<iostream>
+
+1509400674 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/transform.cpp
+
+1510003658 source:/media/harrison/0720f53b-e144-4220-a27b-27fb96c5d6d6/home/harrison/Desktop/spider/wolf.cpp
+	"wolf.h"
+

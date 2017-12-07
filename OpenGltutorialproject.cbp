@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenGltutorialproject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option extended_obj_names="1" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OpenGltutorialproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="/home/harrison/Desktop/openglbackup/bones?/" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OpenGltutorialproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="/home/harrison/Desktop/openglbackup/bones?/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="luigisprogram">
+				<Option output="bin/luigisprogram/OpenGltutorialproject" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/luigisprogram/" />
+				<Option object_output="obj/luigisprogram/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="/home/harrison/Desktop/openglbackup/bones?/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="GL" />
+			<Add library="GLEW" />
+			<Add library="SDL2" />
+		</Linker>
+		<Unit filename="actor.cpp" />
+		<Unit filename="actor.h" />
+		<Unit filename="block.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="block.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="body.cpp" />
+		<Unit filename="body.h" />
+		<Unit filename="bone.cpp" />
+		<Unit filename="bone.h" />
+		<Unit filename="camera.h" />
+		<Unit filename="display.cpp" />
+		<Unit filename="display.h" />
+		<Unit filename="envelope.h" />
+		<Unit filename="envgen.h" />
+		<Unit filename="extinput.cpp" />
+		<Unit filename="extinput.h" />
+		<Unit filename="hitbox.cpp" />
+		<Unit filename="hitbox.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mesh.cpp" />
+		<Unit filename="mesh.h" />
+		<Unit filename="obj_loader.cpp" />
+		<Unit filename="obj_loader.h" />
+		<Unit filename="res/basicShader.fs" />
+		<Unit filename="res/basicShader.vs" />
+		<Unit filename="res/basicShaderShadow.vs" />
+		<Unit filename="res/bone.vs" />
+		<Unit filename="res/boneShadow.vs" />
+		<Unit filename="res/letter.fs" />
+		<Unit filename="res/letter.vs" />
+		<Unit filename="res/paper.fs" />
+		<Unit filename="res/paper.vs" />
+		<Unit filename="res/procgen.vs">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="res/shadow.fs">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="res/skybox.vs" />
+		<Unit filename="shader.cpp" />
+		<Unit filename="shader.h" />
+		<Unit filename="stb_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stb_image.h" />
+		<Unit filename="surface.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="surface.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="texture.cpp" />
+		<Unit filename="texture.h" />
+		<Unit filename="transform.cpp" />
+		<Unit filename="transform.h" />
+		<Unit filename="wolf.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="wolf.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
